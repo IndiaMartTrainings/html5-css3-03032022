@@ -107,8 +107,8 @@ Image Tags
 
 List Tags
 ---------
-Ul - Unordered List -> No order is required
-Ol - Ordered List - Use it when you are lsiting steps which needs be in order
+UL - Unordered List -> No order is required
+OL - Ordered List - Use it when you are lsiting steps which needs be in order
 
 HTML CSS
 ---------
