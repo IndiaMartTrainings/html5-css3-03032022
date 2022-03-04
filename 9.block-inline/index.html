@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Elements</title>
+    <style>
+        /* h1 {
+            background-color: crimson;
+            color: white;
+            
+        }
+        p {
+            background-color: yellow;
+        }
+
+        .one {
+            display: block;
+            background-color: yellow;
+            border: 1px solid blue;
+        }
+        .two {
+            display: block;
+            background-color: yellow;
+            border: 1px solid red;
+        } */
+
+        
+    </style>
+</head>
+<body>
+    <h1>This is header One</h1> 
+    <h1>This is header Two</h1>
+    <p>This is paragraph</p>
+
+    <span class="one">This is simple text with in span</span>
+    <span class="two">This is simple text with in another span</span>
+
+    <p style="color: blue;">
+        This text is in blue
+        <h1>This is blue heading</h1>
+    </p>
+    <button id="btnClick" onclick="callMe()">Click</button>
+    <script> 
+        function callMe(){
+            document.getElementById('btnClick').style.backgroundColor ="crimson"
+            document.getElementById('btnClick').style.color ="white"
+        }   
+    </script>
+</body>
+</html>

@@ -265,6 +265,11 @@ Semantic
 <summary>
 <time>
 
+Non Semantic Eelemnts
+-----------------------
+<div>
+<span>
+<p>
 
 CSS3
 -----
@@ -272,6 +277,14 @@ CSS3
 2. Multiple Device Compatibility
 3. Follows Global WebStandrads
 4. Easy maintainance 
+
+New Features
+------------
+new selectors - Better selection of HTML elements
+Shadow Effects - Box-shadow, text shadow
+Rounded Corners - Easily Round the corners of images and block level elements
+Opacity - Trasaprency 
+Gradients - Using Multiple colors at the same times
 
 
 COLORS

@@ -6,6 +6,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element - HTML Elements
 
 Colors - https://tutorial.techaltum.com/css-colors.html
 
+https://www.color-name.com/hex/3c00a6 - Find colornames by code
+
 https://www.c-sharpcorner.com/UploadFile/da6585/color-name-in-html5/
 
 https://www.rapidtables.com/web/html/html-codes.html - html codes

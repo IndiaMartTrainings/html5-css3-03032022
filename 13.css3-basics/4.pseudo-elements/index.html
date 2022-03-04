@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.one::first-line {
+            color: #ff0000;
+        }
+
+        p.two::first-letter {
+            color: red;
+            font-size: xx-large;
+        }
+
+        p.three::before {
+            content: "Hello";
+            font-size: 32px;
+        }
+        p.four::after {
+            content: ", Thank You";
+            font-size: 32px;
+        }
+        p.five::selection {
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi commodi suscipit voluptatem illo sint excepturi sunt molestiae nihil vel quas. Provident, tempore dolorum enim expedita numquam eveniet adipisci consectetur delectus voluptatum assumenda dolor aspernatur sunt, natus quae possimus tempora error vel corrupti. Voluptatibus officia maxime amet. Inventore assumenda ullam harum.
+    </div>
+    <p class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magnam nam, tenetur, omnis illum harum quod deserunt earum, ad magni similique. Quod hic voluptates sapiente. Iste aspernatur quaerat, quisquam incidunt numquam neque, quod distinctio dolores voluptatum debitis rerum quibusdam commodi harum! Perspiciatis quae commodi nisi expedita quos debitis praesentium ab! Eligendi accusamus qui, quas asperiores, tempora a sapiente atque cumque quaerat, similique veniam et vitae aspernatur. Illo odit saepe provident quo aperiam dicta officiis rem deserunt, reiciendis est odio neque nisi assumenda sequi alias aliquam nam voluptatibus ut dolore? Placeat vero, necessitatibus quaerat ab ducimus fuga illum iste minima! Numquam.
+    </p>
+    <p class="two">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus nulla aut ea ut est placeat modi deserunt, tempora dolorum.
+    </p>
+    <p class="three">
+        Welcome Scott
+    </p>
+    <p class="four">
+        Adam Welcome to Our City
+    </p>
+    <p class="five">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam vel ducimus. Nulla error aliquid nobis eum, porro voluptas ipsa in dignissimos fugiat repellat soluta nam, explicabo officia ipsum. Mollitia.
+    </p>
+</body>
+</html>
